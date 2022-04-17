@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Masukkan Nomer Handphone"
+        android:inputType="number"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:text="OPEN DIAL PHONE"
+        android:onClick="openDialPhone"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtWebsiteUri"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Masukkan URL"
+        android:inputType="textUri"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnWebsiteUri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:onClick="onClick"
+        android:text="OPEN BROWSER"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtLocationUri"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Buka Lokasi"
+        android:inputType="textUri"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnLocationUri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:onClick="onClick"
+        android:text="OPEN LOCATION"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtShareText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Masukkan Text"
+        android:inputType="text"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnShareText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:onClick="onClick"
+        android:text="SHARE TEXT"
+        android:textStyle="bold" />
+</LinearLayout>
